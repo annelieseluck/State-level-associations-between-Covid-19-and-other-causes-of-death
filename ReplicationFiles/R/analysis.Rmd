@@ -100,6 +100,7 @@ modelResults %>% write_csv(here(tablesDir,'modelResults.csv'))
 ```
 
 ## Create Results Table
+*Note: The reason why the percentages for both age groups combined (25+) can differ from those for the two separate subgroups (25-64, and 65+) is that combining the two groups allows age-group-specific COVID-19 mortality to have an effect not only on cause-specific mortality for that group but also on cause-specific mortality on the other group. For example, COVID-19 mortality for the 25-64 group can have an impact on cause-specific mortality for the 65+ group. In less precise terms, the percentages presented for the 25+ group allow for cross age-groups effect which make it possible for those percentage to be either greater or lower than the percentages for the two subgroups. We attach a formal proof of this result. 
 ```{r}
 create_table <- function(coefData,causes,file) {
   
