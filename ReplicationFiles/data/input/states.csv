@@ -1,0 +1,52 @@
+stateFIPS,st_abbrv,state_name,region,region_code,division,division_code
+1,AL,alabama,South,1,East South Central,6
+2,AK,alaska,West,3,Pacific,9
+4,AZ,arizona,West,3,Mountain,8
+5,AR,arkansas,South,1,West South Central,7
+6,CA,california,West,3,Pacific,9
+8,CO,colorado,West,3,Mountain,8
+9,CT,connecticut,Northeast,2,New England,1
+10,DE,delaware,South,1,South Atlantic,5
+11,DC,district of columbia,South,1,South Atlantic,5
+12,FL,florida,South,1,South Atlantic,5
+13,GA,georgia,South,1,South Atlantic,5
+15,HI,hawaii,West,3,Pacific,9
+16,ID,idaho,West,3,Mountain,8
+17,IL,illinois,Midwest,4,East North Central,3
+18,IN,indiana,Midwest,4,East North Central,3
+19,IA,iowa,Midwest,4,West North Central,4
+20,KS,kansas,Midwest,4,West North Central,4
+21,KY,kentucky,South,1,East South Central,6
+22,LA,louisiana,South,1,West South Central,7
+23,ME,maine,Northeast,2,New England,1
+24,MD,maryland,South,1,South Atlantic,5
+25,MA,massachusetts,Northeast,2,New England,1
+26,MI,michigan,Midwest,4,East North Central,3
+27,MN,minnesota,Midwest,4,West North Central,4
+28,MS,mississippi,South,1,East South Central,6
+29,MO,missouri,Midwest,4,West North Central,4
+30,MT,montana,West,3,Mountain,8
+31,NE,nebraska,Midwest,4,West North Central,4
+32,NV,nevada,West,3,Mountain,8
+33,NH,new hampshire,Northeast,2,New England,1
+34,NJ,new jersey,Northeast,2,Middle Atlantic,2
+35,NM,new mexico,West,3,Mountain,8
+36,NY,new york,Northeast,2,Middle Atlantic,2
+37,NC,north carolina,South,1,South Atlantic,5
+38,ND,north dakota,Midwest,4,West North Central,4
+39,OH,ohio,Midwest,4,East North Central,3
+40,OK,oklahoma,South,1,West South Central,7
+41,OR,oregon,West,3,Pacific,9
+42,PA,pennsylvania,Northeast,2,Middle Atlantic,2
+44,RI,rhode island,Northeast,2,New England,1
+45,SC,south carolina,South,1,South Atlantic,5
+46,SD,south dakota,Midwest,4,West North Central,4
+47,TN,tennessee,South,1,East South Central,6
+48,TX,texas,South,1,West South Central,7
+49,UT,utah,West,3,Mountain,8
+50,VT,vermont,Northeast,2,New England,1
+51,VA,virginia,South,1,South Atlantic,5
+53,WA,washington,West,3,Pacific,9
+54,WV,west virginia,South,1,South Atlantic,5
+55,WI,wisconsin,Midwest,4,East North Central,3
+56,WY,wyoming,West,3,Mountain,8

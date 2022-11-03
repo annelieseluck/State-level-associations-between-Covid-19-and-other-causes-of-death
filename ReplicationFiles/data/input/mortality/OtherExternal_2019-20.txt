@@ -1,0 +1,839 @@
+"Notes"	"Residence State"	"Residence State Code"	"Five-Year Age Groups"	"Five-Year Age Groups Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"25-29 years"	"25-29"	23	Not Applicable	Not Applicable
+	"Alabama"	"01"	"30-34 years"	"30-34"	27	Not Applicable	Not Applicable
+	"Alabama"	"01"	"35-39 years"	"35-39"	35	Not Applicable	Not Applicable
+	"Alabama"	"01"	"40-44 years"	"40-44"	30	Not Applicable	Not Applicable
+	"Alabama"	"01"	"45-49 years"	"45-49"	43	Not Applicable	Not Applicable
+	"Alabama"	"01"	"50-54 years"	"50-54"	55	Not Applicable	Not Applicable
+	"Alabama"	"01"	"55-59 years"	"55-59"	76	Not Applicable	Not Applicable
+	"Alabama"	"01"	"60-64 years "	"60-64"	72	Not Applicable	Not Applicable
+	"Alabama"	"01"	"65-69 years"	"65-69"	112	Not Applicable	Not Applicable
+	"Alabama"	"01"	"70-74 years"	"70-74"	98	Not Applicable	Not Applicable
+	"Alabama"	"01"	"75-79 years"	"75-79"	114	Not Applicable	Not Applicable
+	"Alabama"	"01"	"80-84 years"	"80-84"	110	Not Applicable	Not Applicable
+	"Alabama"	"01"	"85-89 years"	"85-89"	102	Not Applicable	Not Applicable
+	"Alabama"	"01"	"90-94 years"	"90-94"	71	Not Applicable	Not Applicable
+	"Alabama"	"01"	"95-99 years"	"95-99"	30	Not Applicable	Not Applicable
+	"Alaska"	"02"	"25-29 years"	"25-29"	13	Not Applicable	Not Applicable
+	"Alaska"	"02"	"30-34 years"	"30-34"	17	Not Applicable	Not Applicable
+	"Alaska"	"02"	"35-39 years"	"35-39"	13	Not Applicable	Not Applicable
+	"Alaska"	"02"	"40-44 years"	"40-44"	10	Not Applicable	Not Applicable
+	"Alaska"	"02"	"45-49 years"	"45-49"	14	Not Applicable	Not Applicable
+	"Alaska"	"02"	"55-59 years"	"55-59"	11	Not Applicable	Not Applicable
+	"Alaska"	"02"	"60-64 years "	"60-64"	21	Not Applicable	Not Applicable
+	"Alaska"	"02"	"70-74 years"	"70-74"	18	Not Applicable	Not Applicable
+	"Alaska"	"02"	"75-79 years"	"75-79"	21	Not Applicable	Not Applicable
+	"Alaska"	"02"	"80-84 years"	"80-84"	19	Not Applicable	Not Applicable
+	"Alaska"	"02"	"85-89 years"	"85-89"	13	Not Applicable	Not Applicable
+	"Alaska"	"02"	"90-94 years"	"90-94"	17	Not Applicable	Not Applicable
+	"Arizona"	"04"	"25-29 years"	"25-29"	39	Not Applicable	Not Applicable
+	"Arizona"	"04"	"30-34 years"	"30-34"	40	Not Applicable	Not Applicable
+	"Arizona"	"04"	"35-39 years"	"35-39"	53	Not Applicable	Not Applicable
+	"Arizona"	"04"	"40-44 years"	"40-44"	50	Not Applicable	Not Applicable
+	"Arizona"	"04"	"45-49 years"	"45-49"	53	Not Applicable	Not Applicable
+	"Arizona"	"04"	"50-54 years"	"50-54"	73	Not Applicable	Not Applicable
+	"Arizona"	"04"	"55-59 years"	"55-59"	105	Not Applicable	Not Applicable
+	"Arizona"	"04"	"60-64 years "	"60-64"	131	Not Applicable	Not Applicable
+	"Arizona"	"04"	"65-69 years"	"65-69"	131	Not Applicable	Not Applicable
+	"Arizona"	"04"	"70-74 years"	"70-74"	170	Not Applicable	Not Applicable
+	"Arizona"	"04"	"75-79 years"	"75-79"	204	Not Applicable	Not Applicable
+	"Arizona"	"04"	"80-84 years"	"80-84"	258	Not Applicable	Not Applicable
+	"Arizona"	"04"	"85-89 years"	"85-89"	273	Not Applicable	Not Applicable
+	"Arizona"	"04"	"90-94 years"	"90-94"	223	Not Applicable	Not Applicable
+	"Arizona"	"04"	"95-99 years"	"95-99"	90	Not Applicable	Not Applicable
+	"Arizona"	"04"	"100+ years"	"100+"	18	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"25-29 years"	"25-29"	23	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"30-34 years"	"30-34"	28	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"35-39 years"	"35-39"	24	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"40-44 years"	"40-44"	22	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"45-49 years"	"45-49"	29	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"50-54 years"	"50-54"	30	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"55-59 years"	"55-59"	41	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"60-64 years "	"60-64"	63	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"65-69 years"	"65-69"	54	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"70-74 years"	"70-74"	64	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"75-79 years"	"75-79"	75	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"80-84 years"	"80-84"	70	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"85-89 years"	"85-89"	76	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"90-94 years"	"90-94"	49	Not Applicable	Not Applicable
+	"Arkansas"	"05"	"95-99 years"	"95-99"	17	Not Applicable	Not Applicable
+	"California"	"06"	"25-29 years"	"25-29"	144	Not Applicable	Not Applicable
+	"California"	"06"	"30-34 years"	"30-34"	146	Not Applicable	Not Applicable
+	"California"	"06"	"35-39 years"	"35-39"	159	Not Applicable	Not Applicable
+	"California"	"06"	"40-44 years"	"40-44"	181	Not Applicable	Not Applicable
+	"California"	"06"	"45-49 years"	"45-49"	211	Not Applicable	Not Applicable
+	"California"	"06"	"50-54 years"	"50-54"	261	Not Applicable	Not Applicable
+	"California"	"06"	"55-59 years"	"55-59"	352	Not Applicable	Not Applicable
+	"California"	"06"	"60-64 years "	"60-64"	348	Not Applicable	Not Applicable
+	"California"	"06"	"65-69 years"	"65-69"	373	Not Applicable	Not Applicable
+	"California"	"06"	"70-74 years"	"70-74"	454	Not Applicable	Not Applicable
+	"California"	"06"	"75-79 years"	"75-79"	479	Not Applicable	Not Applicable
+	"California"	"06"	"80-84 years"	"80-84"	601	Not Applicable	Not Applicable
+	"California"	"06"	"85-89 years"	"85-89"	637	Not Applicable	Not Applicable
+	"California"	"06"	"90-94 years"	"90-94"	593	Not Applicable	Not Applicable
+	"California"	"06"	"95-99 years"	"95-99"	259	Not Applicable	Not Applicable
+	"California"	"06"	"100+ years"	"100+"	49	Not Applicable	Not Applicable
+	"Colorado"	"08"	"25-29 years"	"25-29"	41	Not Applicable	Not Applicable
+	"Colorado"	"08"	"30-34 years"	"30-34"	32	Not Applicable	Not Applicable
+	"Colorado"	"08"	"35-39 years"	"35-39"	45	Not Applicable	Not Applicable
+	"Colorado"	"08"	"40-44 years"	"40-44"	27	Not Applicable	Not Applicable
+	"Colorado"	"08"	"45-49 years"	"45-49"	54	Not Applicable	Not Applicable
+	"Colorado"	"08"	"50-54 years"	"50-54"	62	Not Applicable	Not Applicable
+	"Colorado"	"08"	"55-59 years"	"55-59"	75	Not Applicable	Not Applicable
+	"Colorado"	"08"	"60-64 years "	"60-64"	81	Not Applicable	Not Applicable
+	"Colorado"	"08"	"65-69 years"	"65-69"	94	Not Applicable	Not Applicable
+	"Colorado"	"08"	"70-74 years"	"70-74"	109	Not Applicable	Not Applicable
+	"Colorado"	"08"	"75-79 years"	"75-79"	144	Not Applicable	Not Applicable
+	"Colorado"	"08"	"80-84 years"	"80-84"	199	Not Applicable	Not Applicable
+	"Colorado"	"08"	"85-89 years"	"85-89"	249	Not Applicable	Not Applicable
+	"Colorado"	"08"	"90-94 years"	"90-94"	218	Not Applicable	Not Applicable
+	"Colorado"	"08"	"95-99 years"	"95-99"	104	Not Applicable	Not Applicable
+	"Colorado"	"08"	"100+ years"	"100+"	16	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"25-29 years"	"25-29"	10	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"30-34 years"	"30-34"	18	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"35-39 years"	"35-39"	18	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"40-44 years"	"40-44"	24	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"45-49 years"	"45-49"	20	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"50-54 years"	"50-54"	35	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"55-59 years"	"55-59"	42	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"60-64 years "	"60-64"	61	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"65-69 years"	"65-69"	52	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"70-74 years"	"70-74"	75	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"75-79 years"	"75-79"	74	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"80-84 years"	"80-84"	93	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"85-89 years"	"85-89"	136	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"90-94 years"	"90-94"	121	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"95-99 years"	"95-99"	60	Not Applicable	Not Applicable
+	"Connecticut"	"09"	"100+ years"	"100+"	14	Not Applicable	Not Applicable
+	"Delaware"	"10"	"60-64 years "	"60-64"	16	Not Applicable	Not Applicable
+	"Delaware"	"10"	"65-69 years"	"65-69"	16	Not Applicable	Not Applicable
+	"Delaware"	"10"	"70-74 years"	"70-74"	15	Not Applicable	Not Applicable
+	"Delaware"	"10"	"75-79 years"	"75-79"	23	Not Applicable	Not Applicable
+	"Delaware"	"10"	"80-84 years"	"80-84"	20	Not Applicable	Not Applicable
+	"Delaware"	"10"	"85-89 years"	"85-89"	36	Not Applicable	Not Applicable
+	"Delaware"	"10"	"90-94 years"	"90-94"	17	Not Applicable	Not Applicable
+	"Delaware"	"10"	"95-99 years"	"95-99"	13	Not Applicable	Not Applicable
+	"District of Columbia"	"11"	"50-54 years"	"50-54"	12	Not Applicable	Not Applicable
+	"District of Columbia"	"11"	"65-69 years"	"65-69"	10	Not Applicable	Not Applicable
+	"District of Columbia"	"11"	"70-74 years"	"70-74"	13	Not Applicable	Not Applicable
+	"District of Columbia"	"11"	"90-94 years"	"90-94"	13	Not Applicable	Not Applicable
+	"Florida"	"12"	"25-29 years"	"25-29"	73	Not Applicable	Not Applicable
+	"Florida"	"12"	"30-34 years"	"30-34"	76	Not Applicable	Not Applicable
+	"Florida"	"12"	"35-39 years"	"35-39"	94	Not Applicable	Not Applicable
+	"Florida"	"12"	"40-44 years"	"40-44"	106	Not Applicable	Not Applicable
+	"Florida"	"12"	"45-49 years"	"45-49"	119	Not Applicable	Not Applicable
+	"Florida"	"12"	"50-54 years"	"50-54"	192	Not Applicable	Not Applicable
+	"Florida"	"12"	"55-59 years"	"55-59"	266	Not Applicable	Not Applicable
+	"Florida"	"12"	"60-64 years "	"60-64"	283	Not Applicable	Not Applicable
+	"Florida"	"12"	"65-69 years"	"65-69"	372	Not Applicable	Not Applicable
+	"Florida"	"12"	"70-74 years"	"70-74"	476	Not Applicable	Not Applicable
+	"Florida"	"12"	"75-79 years"	"75-79"	550	Not Applicable	Not Applicable
+	"Florida"	"12"	"80-84 years"	"80-84"	744	Not Applicable	Not Applicable
+	"Florida"	"12"	"85-89 years"	"85-89"	809	Not Applicable	Not Applicable
+	"Florida"	"12"	"90-94 years"	"90-94"	738	Not Applicable	Not Applicable
+	"Florida"	"12"	"95-99 years"	"95-99"	359	Not Applicable	Not Applicable
+	"Florida"	"12"	"100+ years"	"100+"	56	Not Applicable	Not Applicable
+	"Georgia"	"13"	"25-29 years"	"25-29"	44	Not Applicable	Not Applicable
+	"Georgia"	"13"	"30-34 years"	"30-34"	40	Not Applicable	Not Applicable
+	"Georgia"	"13"	"35-39 years"	"35-39"	54	Not Applicable	Not Applicable
+	"Georgia"	"13"	"40-44 years"	"40-44"	66	Not Applicable	Not Applicable
+	"Georgia"	"13"	"45-49 years"	"45-49"	77	Not Applicable	Not Applicable
+	"Georgia"	"13"	"50-54 years"	"50-54"	92	Not Applicable	Not Applicable
+	"Georgia"	"13"	"55-59 years"	"55-59"	101	Not Applicable	Not Applicable
+	"Georgia"	"13"	"60-64 years "	"60-64"	149	Not Applicable	Not Applicable
+	"Georgia"	"13"	"65-69 years"	"65-69"	158	Not Applicable	Not Applicable
+	"Georgia"	"13"	"70-74 years"	"70-74"	175	Not Applicable	Not Applicable
+	"Georgia"	"13"	"75-79 years"	"75-79"	196	Not Applicable	Not Applicable
+	"Georgia"	"13"	"80-84 years"	"80-84"	192	Not Applicable	Not Applicable
+	"Georgia"	"13"	"85-89 years"	"85-89"	244	Not Applicable	Not Applicable
+	"Georgia"	"13"	"90-94 years"	"90-94"	171	Not Applicable	Not Applicable
+	"Georgia"	"13"	"95-99 years"	"95-99"	54	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"35-39 years"	"35-39"	15	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"45-49 years"	"45-49"	13	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"50-54 years"	"50-54"	10	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"55-59 years"	"55-59"	23	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"60-64 years "	"60-64"	20	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"65-69 years"	"65-69"	23	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"70-74 years"	"70-74"	16	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"75-79 years"	"75-79"	29	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"80-84 years"	"80-84"	38	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"85-89 years"	"85-89"	48	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"90-94 years"	"90-94"	48	Not Applicable	Not Applicable
+	"Hawaii"	"15"	"95-99 years"	"95-99"	26	Not Applicable	Not Applicable
+	"Idaho"	"16"	"40-44 years"	"40-44"	11	Not Applicable	Not Applicable
+	"Idaho"	"16"	"45-49 years"	"45-49"	20	Not Applicable	Not Applicable
+	"Idaho"	"16"	"50-54 years"	"50-54"	15	Not Applicable	Not Applicable
+	"Idaho"	"16"	"55-59 years"	"55-59"	23	Not Applicable	Not Applicable
+	"Idaho"	"16"	"60-64 years "	"60-64"	29	Not Applicable	Not Applicable
+	"Idaho"	"16"	"65-69 years"	"65-69"	28	Not Applicable	Not Applicable
+	"Idaho"	"16"	"70-74 years"	"70-74"	36	Not Applicable	Not Applicable
+	"Idaho"	"16"	"75-79 years"	"75-79"	68	Not Applicable	Not Applicable
+	"Idaho"	"16"	"80-84 years"	"80-84"	66	Not Applicable	Not Applicable
+	"Idaho"	"16"	"85-89 years"	"85-89"	61	Not Applicable	Not Applicable
+	"Idaho"	"16"	"90-94 years"	"90-94"	57	Not Applicable	Not Applicable
+	"Idaho"	"16"	"95-99 years"	"95-99"	37	Not Applicable	Not Applicable
+	"Illinois"	"17"	"25-29 years"	"25-29"	46	Not Applicable	Not Applicable
+	"Illinois"	"17"	"30-34 years"	"30-34"	68	Not Applicable	Not Applicable
+	"Illinois"	"17"	"35-39 years"	"35-39"	59	Not Applicable	Not Applicable
+	"Illinois"	"17"	"40-44 years"	"40-44"	67	Not Applicable	Not Applicable
+	"Illinois"	"17"	"45-49 years"	"45-49"	82	Not Applicable	Not Applicable
+	"Illinois"	"17"	"50-54 years"	"50-54"	112	Not Applicable	Not Applicable
+	"Illinois"	"17"	"55-59 years"	"55-59"	137	Not Applicable	Not Applicable
+	"Illinois"	"17"	"60-64 years "	"60-64"	175	Not Applicable	Not Applicable
+	"Illinois"	"17"	"65-69 years"	"65-69"	204	Not Applicable	Not Applicable
+	"Illinois"	"17"	"70-74 years"	"70-74"	203	Not Applicable	Not Applicable
+	"Illinois"	"17"	"75-79 years"	"75-79"	248	Not Applicable	Not Applicable
+	"Illinois"	"17"	"80-84 years"	"80-84"	298	Not Applicable	Not Applicable
+	"Illinois"	"17"	"85-89 years"	"85-89"	351	Not Applicable	Not Applicable
+	"Illinois"	"17"	"90-94 years"	"90-94"	310	Not Applicable	Not Applicable
+	"Illinois"	"17"	"95-99 years"	"95-99"	119	Not Applicable	Not Applicable
+	"Illinois"	"17"	"100+ years"	"100+"	28	Not Applicable	Not Applicable
+	"Indiana"	"18"	"25-29 years"	"25-29"	33	Not Applicable	Not Applicable
+	"Indiana"	"18"	"30-34 years"	"30-34"	36	Not Applicable	Not Applicable
+	"Indiana"	"18"	"35-39 years"	"35-39"	36	Not Applicable	Not Applicable
+	"Indiana"	"18"	"40-44 years"	"40-44"	47	Not Applicable	Not Applicable
+	"Indiana"	"18"	"45-49 years"	"45-49"	61	Not Applicable	Not Applicable
+	"Indiana"	"18"	"50-54 years"	"50-54"	82	Not Applicable	Not Applicable
+	"Indiana"	"18"	"55-59 years"	"55-59"	85	Not Applicable	Not Applicable
+	"Indiana"	"18"	"60-64 years "	"60-64"	114	Not Applicable	Not Applicable
+	"Indiana"	"18"	"65-69 years"	"65-69"	118	Not Applicable	Not Applicable
+	"Indiana"	"18"	"70-74 years"	"70-74"	104	Not Applicable	Not Applicable
+	"Indiana"	"18"	"75-79 years"	"75-79"	160	Not Applicable	Not Applicable
+	"Indiana"	"18"	"80-84 years"	"80-84"	178	Not Applicable	Not Applicable
+	"Indiana"	"18"	"85-89 years"	"85-89"	173	Not Applicable	Not Applicable
+	"Indiana"	"18"	"90-94 years"	"90-94"	163	Not Applicable	Not Applicable
+	"Indiana"	"18"	"95-99 years"	"95-99"	81	Not Applicable	Not Applicable
+	"Indiana"	"18"	"100+ years"	"100+"	19	Not Applicable	Not Applicable
+	"Iowa"	"19"	"25-29 years"	"25-29"	15	Not Applicable	Not Applicable
+	"Iowa"	"19"	"30-34 years"	"30-34"	10	Not Applicable	Not Applicable
+	"Iowa"	"19"	"35-39 years"	"35-39"	19	Not Applicable	Not Applicable
+	"Iowa"	"19"	"40-44 years"	"40-44"	19	Not Applicable	Not Applicable
+	"Iowa"	"19"	"45-49 years"	"45-49"	19	Not Applicable	Not Applicable
+	"Iowa"	"19"	"50-54 years"	"50-54"	33	Not Applicable	Not Applicable
+	"Iowa"	"19"	"55-59 years"	"55-59"	57	Not Applicable	Not Applicable
+	"Iowa"	"19"	"60-64 years "	"60-64"	50	Not Applicable	Not Applicable
+	"Iowa"	"19"	"65-69 years"	"65-69"	66	Not Applicable	Not Applicable
+	"Iowa"	"19"	"70-74 years"	"70-74"	66	Not Applicable	Not Applicable
+	"Iowa"	"19"	"75-79 years"	"75-79"	104	Not Applicable	Not Applicable
+	"Iowa"	"19"	"80-84 years"	"80-84"	127	Not Applicable	Not Applicable
+	"Iowa"	"19"	"85-89 years"	"85-89"	118	Not Applicable	Not Applicable
+	"Iowa"	"19"	"90-94 years"	"90-94"	139	Not Applicable	Not Applicable
+	"Iowa"	"19"	"95-99 years"	"95-99"	68	Not Applicable	Not Applicable
+	"Kansas"	"20"	"25-29 years"	"25-29"	16	Not Applicable	Not Applicable
+	"Kansas"	"20"	"30-34 years"	"30-34"	24	Not Applicable	Not Applicable
+	"Kansas"	"20"	"35-39 years"	"35-39"	17	Not Applicable	Not Applicable
+	"Kansas"	"20"	"40-44 years"	"40-44"	15	Not Applicable	Not Applicable
+	"Kansas"	"20"	"45-49 years"	"45-49"	24	Not Applicable	Not Applicable
+	"Kansas"	"20"	"50-54 years"	"50-54"	40	Not Applicable	Not Applicable
+	"Kansas"	"20"	"55-59 years"	"55-59"	43	Not Applicable	Not Applicable
+	"Kansas"	"20"	"60-64 years "	"60-64"	49	Not Applicable	Not Applicable
+	"Kansas"	"20"	"65-69 years"	"65-69"	44	Not Applicable	Not Applicable
+	"Kansas"	"20"	"70-74 years"	"70-74"	71	Not Applicable	Not Applicable
+	"Kansas"	"20"	"75-79 years"	"75-79"	91	Not Applicable	Not Applicable
+	"Kansas"	"20"	"80-84 years"	"80-84"	100	Not Applicable	Not Applicable
+	"Kansas"	"20"	"85-89 years"	"85-89"	123	Not Applicable	Not Applicable
+	"Kansas"	"20"	"90-94 years"	"90-94"	104	Not Applicable	Not Applicable
+	"Kansas"	"20"	"95-99 years"	"95-99"	36	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"25-29 years"	"25-29"	16	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"30-34 years"	"30-34"	22	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"35-39 years"	"35-39"	27	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"40-44 years"	"40-44"	33	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"45-49 years"	"45-49"	42	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"50-54 years"	"50-54"	62	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"55-59 years"	"55-59"	81	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"60-64 years "	"60-64"	77	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"65-69 years"	"65-69"	103	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"70-74 years"	"70-74"	98	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"75-79 years"	"75-79"	123	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"80-84 years"	"80-84"	125	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"85-89 years"	"85-89"	137	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"90-94 years"	"90-94"	117	Not Applicable	Not Applicable
+	"Kentucky"	"21"	"95-99 years"	"95-99"	50	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"25-29 years"	"25-29"	25	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"30-34 years"	"30-34"	36	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"35-39 years"	"35-39"	36	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"40-44 years"	"40-44"	38	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"45-49 years"	"45-49"	25	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"50-54 years"	"50-54"	47	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"55-59 years"	"55-59"	54	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"60-64 years "	"60-64"	78	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"65-69 years"	"65-69"	80	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"70-74 years"	"70-74"	82	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"75-79 years"	"75-79"	102	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"80-84 years"	"80-84"	88	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"85-89 years"	"85-89"	94	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"90-94 years"	"90-94"	65	Not Applicable	Not Applicable
+	"Louisiana"	"22"	"95-99 years"	"95-99"	35	Not Applicable	Not Applicable
+	"Maine"	"23"	"35-39 years"	"35-39"	13	Not Applicable	Not Applicable
+	"Maine"	"23"	"50-54 years"	"50-54"	17	Not Applicable	Not Applicable
+	"Maine"	"23"	"55-59 years"	"55-59"	17	Not Applicable	Not Applicable
+	"Maine"	"23"	"60-64 years "	"60-64"	19	Not Applicable	Not Applicable
+	"Maine"	"23"	"65-69 years"	"65-69"	38	Not Applicable	Not Applicable
+	"Maine"	"23"	"70-74 years"	"70-74"	38	Not Applicable	Not Applicable
+	"Maine"	"23"	"75-79 years"	"75-79"	55	Not Applicable	Not Applicable
+	"Maine"	"23"	"80-84 years"	"80-84"	86	Not Applicable	Not Applicable
+	"Maine"	"23"	"85-89 years"	"85-89"	88	Not Applicable	Not Applicable
+	"Maine"	"23"	"90-94 years"	"90-94"	78	Not Applicable	Not Applicable
+	"Maine"	"23"	"95-99 years"	"95-99"	47	Not Applicable	Not Applicable
+	"Maine"	"23"	"100+ years"	"100+"	13	Not Applicable	Not Applicable
+	"Maryland"	"24"	"25-29 years"	"25-29"	23	Not Applicable	Not Applicable
+	"Maryland"	"24"	"30-34 years"	"30-34"	39	Not Applicable	Not Applicable
+	"Maryland"	"24"	"35-39 years"	"35-39"	30	Not Applicable	Not Applicable
+	"Maryland"	"24"	"40-44 years"	"40-44"	36	Not Applicable	Not Applicable
+	"Maryland"	"24"	"45-49 years"	"45-49"	43	Not Applicable	Not Applicable
+	"Maryland"	"24"	"50-54 years"	"50-54"	51	Not Applicable	Not Applicable
+	"Maryland"	"24"	"55-59 years"	"55-59"	80	Not Applicable	Not Applicable
+	"Maryland"	"24"	"60-64 years "	"60-64"	79	Not Applicable	Not Applicable
+	"Maryland"	"24"	"65-69 years"	"65-69"	99	Not Applicable	Not Applicable
+	"Maryland"	"24"	"70-74 years"	"70-74"	106	Not Applicable	Not Applicable
+	"Maryland"	"24"	"75-79 years"	"75-79"	150	Not Applicable	Not Applicable
+	"Maryland"	"24"	"80-84 years"	"80-84"	160	Not Applicable	Not Applicable
+	"Maryland"	"24"	"85-89 years"	"85-89"	175	Not Applicable	Not Applicable
+	"Maryland"	"24"	"90-94 years"	"90-94"	168	Not Applicable	Not Applicable
+	"Maryland"	"24"	"95-99 years"	"95-99"	91	Not Applicable	Not Applicable
+	"Maryland"	"24"	"100+ years"	"100+"	14	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"25-29 years"	"25-29"	22	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	23	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"35-39 years"	"35-39"	21	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"40-44 years"	"40-44"	29	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"45-49 years"	"45-49"	31	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"50-54 years"	"50-54"	50	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"55-59 years"	"55-59"	65	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"60-64 years "	"60-64"	87	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"65-69 years"	"65-69"	104	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"70-74 years"	"70-74"	135	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"75-79 years"	"75-79"	157	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"80-84 years"	"80-84"	210	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"85-89 years"	"85-89"	271	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"90-94 years"	"90-94"	257	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"95-99 years"	"95-99"	137	Not Applicable	Not Applicable
+	"Massachusetts"	"25"	"100+ years"	"100+"	25	Not Applicable	Not Applicable
+	"Michigan"	"26"	"25-29 years"	"25-29"	39	Not Applicable	Not Applicable
+	"Michigan"	"26"	"30-34 years"	"30-34"	54	Not Applicable	Not Applicable
+	"Michigan"	"26"	"35-39 years"	"35-39"	45	Not Applicable	Not Applicable
+	"Michigan"	"26"	"40-44 years"	"40-44"	60	Not Applicable	Not Applicable
+	"Michigan"	"26"	"45-49 years"	"45-49"	56	Not Applicable	Not Applicable
+	"Michigan"	"26"	"50-54 years"	"50-54"	82	Not Applicable	Not Applicable
+	"Michigan"	"26"	"55-59 years"	"55-59"	150	Not Applicable	Not Applicable
+	"Michigan"	"26"	"60-64 years "	"60-64"	158	Not Applicable	Not Applicable
+	"Michigan"	"26"	"65-69 years"	"65-69"	186	Not Applicable	Not Applicable
+	"Michigan"	"26"	"70-74 years"	"70-74"	210	Not Applicable	Not Applicable
+	"Michigan"	"26"	"75-79 years"	"75-79"	262	Not Applicable	Not Applicable
+	"Michigan"	"26"	"80-84 years"	"80-84"	299	Not Applicable	Not Applicable
+	"Michigan"	"26"	"85-89 years"	"85-89"	338	Not Applicable	Not Applicable
+	"Michigan"	"26"	"90-94 years"	"90-94"	296	Not Applicable	Not Applicable
+	"Michigan"	"26"	"95-99 years"	"95-99"	147	Not Applicable	Not Applicable
+	"Michigan"	"26"	"100+ years"	"100+"	19	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"25-29 years"	"25-29"	29	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"30-34 years"	"30-34"	17	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"35-39 years"	"35-39"	31	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"40-44 years"	"40-44"	38	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"45-49 years"	"45-49"	28	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"50-54 years"	"50-54"	50	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"55-59 years"	"55-59"	87	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"60-64 years "	"60-64"	102	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"65-69 years"	"65-69"	89	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"70-74 years"	"70-74"	138	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"75-79 years"	"75-79"	142	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"80-84 years"	"80-84"	242	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"85-89 years"	"85-89"	291	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"90-94 years"	"90-94"	315	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"95-99 years"	"95-99"	140	Not Applicable	Not Applicable
+	"Minnesota"	"27"	"100+ years"	"100+"	35	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"25-29 years"	"25-29"	17	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"30-34 years"	"30-34"	21	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"35-39 years"	"35-39"	32	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"40-44 years"	"40-44"	31	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"45-49 years"	"45-49"	25	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"50-54 years"	"50-54"	35	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"55-59 years"	"55-59"	49	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"60-64 years "	"60-64"	67	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"65-69 years"	"65-69"	70	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"70-74 years"	"70-74"	77	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"75-79 years"	"75-79"	92	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"80-84 years"	"80-84"	102	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"85-89 years"	"85-89"	81	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"90-94 years"	"90-94"	60	Not Applicable	Not Applicable
+	"Mississippi"	"28"	"95-99 years"	"95-99"	24	Not Applicable	Not Applicable
+	"Missouri"	"29"	"25-29 years"	"25-29"	24	Not Applicable	Not Applicable
+	"Missouri"	"29"	"30-34 years"	"30-34"	30	Not Applicable	Not Applicable
+	"Missouri"	"29"	"35-39 years"	"35-39"	52	Not Applicable	Not Applicable
+	"Missouri"	"29"	"40-44 years"	"40-44"	40	Not Applicable	Not Applicable
+	"Missouri"	"29"	"45-49 years"	"45-49"	44	Not Applicable	Not Applicable
+	"Missouri"	"29"	"50-54 years"	"50-54"	59	Not Applicable	Not Applicable
+	"Missouri"	"29"	"55-59 years"	"55-59"	77	Not Applicable	Not Applicable
+	"Missouri"	"29"	"60-64 years "	"60-64"	82	Not Applicable	Not Applicable
+	"Missouri"	"29"	"65-69 years"	"65-69"	99	Not Applicable	Not Applicable
+	"Missouri"	"29"	"70-74 years"	"70-74"	145	Not Applicable	Not Applicable
+	"Missouri"	"29"	"75-79 years"	"75-79"	159	Not Applicable	Not Applicable
+	"Missouri"	"29"	"80-84 years"	"80-84"	211	Not Applicable	Not Applicable
+	"Missouri"	"29"	"85-89 years"	"85-89"	220	Not Applicable	Not Applicable
+	"Missouri"	"29"	"90-94 years"	"90-94"	209	Not Applicable	Not Applicable
+	"Missouri"	"29"	"95-99 years"	"95-99"	87	Not Applicable	Not Applicable
+	"Missouri"	"29"	"100+ years"	"100+"	10	Not Applicable	Not Applicable
+	"Montana"	"30"	"40-44 years"	"40-44"	15	Not Applicable	Not Applicable
+	"Montana"	"30"	"50-54 years"	"50-54"	20	Not Applicable	Not Applicable
+	"Montana"	"30"	"55-59 years"	"55-59"	13	Not Applicable	Not Applicable
+	"Montana"	"30"	"60-64 years "	"60-64"	17	Not Applicable	Not Applicable
+	"Montana"	"30"	"65-69 years"	"65-69"	33	Not Applicable	Not Applicable
+	"Montana"	"30"	"70-74 years"	"70-74"	40	Not Applicable	Not Applicable
+	"Montana"	"30"	"75-79 years"	"75-79"	36	Not Applicable	Not Applicable
+	"Montana"	"30"	"80-84 years"	"80-84"	35	Not Applicable	Not Applicable
+	"Montana"	"30"	"85-89 years"	"85-89"	54	Not Applicable	Not Applicable
+	"Montana"	"30"	"90-94 years"	"90-94"	44	Not Applicable	Not Applicable
+	"Montana"	"30"	"95-99 years"	"95-99"	20	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"25-29 years"	"25-29"	12	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"35-39 years"	"35-39"	14	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"40-44 years"	"40-44"	12	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"45-49 years"	"45-49"	18	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"50-54 years"	"50-54"	16	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"55-59 years"	"55-59"	20	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"60-64 years "	"60-64"	28	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"65-69 years"	"65-69"	45	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"70-74 years"	"70-74"	45	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"75-79 years"	"75-79"	28	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"80-84 years"	"80-84"	54	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"85-89 years"	"85-89"	65	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"90-94 years"	"90-94"	62	Not Applicable	Not Applicable
+	"Nebraska"	"31"	"95-99 years"	"95-99"	22	Not Applicable	Not Applicable
+	"Nevada"	"32"	"25-29 years"	"25-29"	11	Not Applicable	Not Applicable
+	"Nevada"	"32"	"30-34 years"	"30-34"	12	Not Applicable	Not Applicable
+	"Nevada"	"32"	"35-39 years"	"35-39"	12	Not Applicable	Not Applicable
+	"Nevada"	"32"	"40-44 years"	"40-44"	12	Not Applicable	Not Applicable
+	"Nevada"	"32"	"45-49 years"	"45-49"	26	Not Applicable	Not Applicable
+	"Nevada"	"32"	"50-54 years"	"50-54"	30	Not Applicable	Not Applicable
+	"Nevada"	"32"	"55-59 years"	"55-59"	36	Not Applicable	Not Applicable
+	"Nevada"	"32"	"60-64 years "	"60-64"	48	Not Applicable	Not Applicable
+	"Nevada"	"32"	"65-69 years"	"65-69"	57	Not Applicable	Not Applicable
+	"Nevada"	"32"	"70-74 years"	"70-74"	50	Not Applicable	Not Applicable
+	"Nevada"	"32"	"75-79 years"	"75-79"	69	Not Applicable	Not Applicable
+	"Nevada"	"32"	"80-84 years"	"80-84"	78	Not Applicable	Not Applicable
+	"Nevada"	"32"	"85-89 years"	"85-89"	73	Not Applicable	Not Applicable
+	"Nevada"	"32"	"90-94 years"	"90-94"	44	Not Applicable	Not Applicable
+	"Nevada"	"32"	"95-99 years"	"95-99"	23	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"35-39 years"	"35-39"	10	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"45-49 years"	"45-49"	12	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"50-54 years"	"50-54"	13	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"55-59 years"	"55-59"	24	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"60-64 years "	"60-64"	16	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"65-69 years"	"65-69"	22	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"70-74 years"	"70-74"	40	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"75-79 years"	"75-79"	38	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"80-84 years"	"80-84"	39	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"85-89 years"	"85-89"	56	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"90-94 years"	"90-94"	68	Not Applicable	Not Applicable
+	"New Hampshire"	"33"	"95-99 years"	"95-99"	29	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"25-29 years"	"25-29"	25	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"30-34 years"	"30-34"	32	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"35-39 years"	"35-39"	33	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"40-44 years"	"40-44"	29	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"45-49 years"	"45-49"	38	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"50-54 years"	"50-54"	61	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"55-59 years"	"55-59"	75	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"60-64 years "	"60-64"	93	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"65-69 years"	"65-69"	96	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"70-74 years"	"70-74"	128	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"75-79 years"	"75-79"	124	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"80-84 years"	"80-84"	182	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"85-89 years"	"85-89"	204	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"90-94 years"	"90-94"	199	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"95-99 years"	"95-99"	79	Not Applicable	Not Applicable
+	"New Jersey"	"34"	"100+ years"	"100+"	17	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"25-29 years"	"25-29"	27	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"30-34 years"	"30-34"	22	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"35-39 years"	"35-39"	33	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"40-44 years"	"40-44"	29	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"45-49 years"	"45-49"	41	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"50-54 years"	"50-54"	41	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"55-59 years"	"55-59"	50	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"60-64 years "	"60-64"	58	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"65-69 years"	"65-69"	38	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"70-74 years"	"70-74"	60	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"75-79 years"	"75-79"	70	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"80-84 years"	"80-84"	91	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"85-89 years"	"85-89"	103	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"90-94 years"	"90-94"	84	Not Applicable	Not Applicable
+	"New Mexico"	"35"	"95-99 years"	"95-99"	27	Not Applicable	Not Applicable
+	"New York"	"36"	"25-29 years"	"25-29"	56	Not Applicable	Not Applicable
+	"New York"	"36"	"30-34 years"	"30-34"	68	Not Applicable	Not Applicable
+	"New York"	"36"	"35-39 years"	"35-39"	81	Not Applicable	Not Applicable
+	"New York"	"36"	"40-44 years"	"40-44"	81	Not Applicable	Not Applicable
+	"New York"	"36"	"45-49 years"	"45-49"	104	Not Applicable	Not Applicable
+	"New York"	"36"	"50-54 years"	"50-54"	148	Not Applicable	Not Applicable
+	"New York"	"36"	"55-59 years"	"55-59"	186	Not Applicable	Not Applicable
+	"New York"	"36"	"60-64 years "	"60-64"	213	Not Applicable	Not Applicable
+	"New York"	"36"	"65-69 years"	"65-69"	209	Not Applicable	Not Applicable
+	"New York"	"36"	"70-74 years"	"70-74"	265	Not Applicable	Not Applicable
+	"New York"	"36"	"75-79 years"	"75-79"	293	Not Applicable	Not Applicable
+	"New York"	"36"	"80-84 years"	"80-84"	395	Not Applicable	Not Applicable
+	"New York"	"36"	"85-89 years"	"85-89"	489	Not Applicable	Not Applicable
+	"New York"	"36"	"90-94 years"	"90-94"	431	Not Applicable	Not Applicable
+	"New York"	"36"	"95-99 years"	"95-99"	182	Not Applicable	Not Applicable
+	"New York"	"36"	"100+ years"	"100+"	30	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"25-29 years"	"25-29"	38	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"30-34 years"	"30-34"	50	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"35-39 years"	"35-39"	52	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"40-44 years"	"40-44"	52	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"45-49 years"	"45-49"	74	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"50-54 years"	"50-54"	95	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"55-59 years"	"55-59"	143	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"60-64 years "	"60-64"	128	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"65-69 years"	"65-69"	190	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"70-74 years"	"70-74"	223	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"75-79 years"	"75-79"	280	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"80-84 years"	"80-84"	307	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"85-89 years"	"85-89"	385	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"90-94 years"	"90-94"	343	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"95-99 years"	"95-99"	131	Not Applicable	Not Applicable
+	"North Carolina"	"37"	"100+ years"	"100+"	23	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"55-59 years"	"55-59"	19	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"60-64 years "	"60-64"	15	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"65-69 years"	"65-69"	18	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"70-74 years"	"70-74"	15	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"75-79 years"	"75-79"	19	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"80-84 years"	"80-84"	24	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"85-89 years"	"85-89"	22	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"90-94 years"	"90-94"	39	Not Applicable	Not Applicable
+	"North Dakota"	"38"	"95-99 years"	"95-99"	12	Not Applicable	Not Applicable
+	"Ohio"	"39"	"25-29 years"	"25-29"	37	Not Applicable	Not Applicable
+	"Ohio"	"39"	"30-34 years"	"30-34"	45	Not Applicable	Not Applicable
+	"Ohio"	"39"	"35-39 years"	"35-39"	56	Not Applicable	Not Applicable
+	"Ohio"	"39"	"40-44 years"	"40-44"	61	Not Applicable	Not Applicable
+	"Ohio"	"39"	"45-49 years"	"45-49"	89	Not Applicable	Not Applicable
+	"Ohio"	"39"	"50-54 years"	"50-54"	90	Not Applicable	Not Applicable
+	"Ohio"	"39"	"55-59 years"	"55-59"	179	Not Applicable	Not Applicable
+	"Ohio"	"39"	"60-64 years "	"60-64"	201	Not Applicable	Not Applicable
+	"Ohio"	"39"	"65-69 years"	"65-69"	214	Not Applicable	Not Applicable
+	"Ohio"	"39"	"70-74 years"	"70-74"	294	Not Applicable	Not Applicable
+	"Ohio"	"39"	"75-79 years"	"75-79"	332	Not Applicable	Not Applicable
+	"Ohio"	"39"	"80-84 years"	"80-84"	366	Not Applicable	Not Applicable
+	"Ohio"	"39"	"85-89 years"	"85-89"	468	Not Applicable	Not Applicable
+	"Ohio"	"39"	"90-94 years"	"90-94"	359	Not Applicable	Not Applicable
+	"Ohio"	"39"	"95-99 years"	"95-99"	187	Not Applicable	Not Applicable
+	"Ohio"	"39"	"100+ years"	"100+"	36	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	21	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"30-34 years"	"30-34"	36	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"35-39 years"	"35-39"	32	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"40-44 years"	"40-44"	30	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"45-49 years"	"45-49"	28	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"50-54 years"	"50-54"	46	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"55-59 years"	"55-59"	64	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"60-64 years "	"60-64"	64	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"65-69 years"	"65-69"	82	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"70-74 years"	"70-74"	102	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"75-79 years"	"75-79"	124	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"80-84 years"	"80-84"	165	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"85-89 years"	"85-89"	171	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"90-94 years"	"90-94"	142	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"95-99 years"	"95-99"	61	Not Applicable	Not Applicable
+	"Oklahoma"	"40"	"100+ years"	"100+"	12	Not Applicable	Not Applicable
+	"Oregon"	"41"	"25-29 years"	"25-29"	12	Not Applicable	Not Applicable
+	"Oregon"	"41"	"30-34 years"	"30-34"	28	Not Applicable	Not Applicable
+	"Oregon"	"41"	"35-39 years"	"35-39"	28	Not Applicable	Not Applicable
+	"Oregon"	"41"	"40-44 years"	"40-44"	28	Not Applicable	Not Applicable
+	"Oregon"	"41"	"45-49 years"	"45-49"	26	Not Applicable	Not Applicable
+	"Oregon"	"41"	"50-54 years"	"50-54"	35	Not Applicable	Not Applicable
+	"Oregon"	"41"	"55-59 years"	"55-59"	57	Not Applicable	Not Applicable
+	"Oregon"	"41"	"60-64 years "	"60-64"	69	Not Applicable	Not Applicable
+	"Oregon"	"41"	"65-69 years"	"65-69"	58	Not Applicable	Not Applicable
+	"Oregon"	"41"	"70-74 years"	"70-74"	105	Not Applicable	Not Applicable
+	"Oregon"	"41"	"75-79 years"	"75-79"	123	Not Applicable	Not Applicable
+	"Oregon"	"41"	"80-84 years"	"80-84"	152	Not Applicable	Not Applicable
+	"Oregon"	"41"	"85-89 years"	"85-89"	196	Not Applicable	Not Applicable
+	"Oregon"	"41"	"90-94 years"	"90-94"	190	Not Applicable	Not Applicable
+	"Oregon"	"41"	"95-99 years"	"95-99"	92	Not Applicable	Not Applicable
+	"Oregon"	"41"	"100+ years"	"100+"	15	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"25-29 years"	"25-29"	59	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	69	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"35-39 years"	"35-39"	65	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"40-44 years"	"40-44"	67	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"45-49 years"	"45-49"	75	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"50-54 years"	"50-54"	128	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"55-59 years"	"55-59"	148	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"60-64 years "	"60-64"	227	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"65-69 years"	"65-69"	211	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"70-74 years"	"70-74"	283	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"75-79 years"	"75-79"	384	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"80-84 years"	"80-84"	461	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"85-89 years"	"85-89"	560	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"90-94 years"	"90-94"	526	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"95-99 years"	"95-99"	202	Not Applicable	Not Applicable
+	"Pennsylvania"	"42"	"100+ years"	"100+"	37	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"45-49 years"	"45-49"	10	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"55-59 years"	"55-59"	15	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"60-64 years "	"60-64"	20	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"65-69 years"	"65-69"	27	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"70-74 years"	"70-74"	24	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"75-79 years"	"75-79"	33	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"80-84 years"	"80-84"	51	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"85-89 years"	"85-89"	37	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"90-94 years"	"90-94"	47	Not Applicable	Not Applicable
+	"Rhode Island"	"44"	"95-99 years"	"95-99"	27	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"25-29 years"	"25-29"	24	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"30-34 years"	"30-34"	26	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"35-39 years"	"35-39"	30	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"40-44 years"	"40-44"	30	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"45-49 years"	"45-49"	35	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"50-54 years"	"50-54"	55	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"55-59 years"	"55-59"	78	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"60-64 years "	"60-64"	84	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"65-69 years"	"65-69"	86	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"70-74 years"	"70-74"	108	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"75-79 years"	"75-79"	137	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"80-84 years"	"80-84"	161	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"85-89 years"	"85-89"	174	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"90-94 years"	"90-94"	140	Not Applicable	Not Applicable
+	"South Carolina"	"45"	"95-99 years"	"95-99"	64	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"40-44 years"	"40-44"	12	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"55-59 years"	"55-59"	19	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"60-64 years "	"60-64"	21	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"70-74 years"	"70-74"	13	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"75-79 years"	"75-79"	14	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"80-84 years"	"80-84"	38	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"85-89 years"	"85-89"	51	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"90-94 years"	"90-94"	51	Not Applicable	Not Applicable
+	"South Dakota"	"46"	"95-99 years"	"95-99"	21	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"25-29 years"	"25-29"	28	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"30-34 years"	"30-34"	45	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"35-39 years"	"35-39"	43	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"40-44 years"	"40-44"	58	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"45-49 years"	"45-49"	57	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"50-54 years"	"50-54"	88	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"55-59 years"	"55-59"	109	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"60-64 years "	"60-64"	124	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"65-69 years"	"65-69"	148	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"70-74 years"	"70-74"	183	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"75-79 years"	"75-79"	197	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"80-84 years"	"80-84"	209	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"85-89 years"	"85-89"	262	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"90-94 years"	"90-94"	188	Not Applicable	Not Applicable
+	"Tennessee"	"47"	"95-99 years"	"95-99"	79	Not Applicable	Not Applicable
+	"Texas"	"48"	"25-29 years"	"25-29"	109	Not Applicable	Not Applicable
+	"Texas"	"48"	"30-34 years"	"30-34"	146	Not Applicable	Not Applicable
+	"Texas"	"48"	"35-39 years"	"35-39"	153	Not Applicable	Not Applicable
+	"Texas"	"48"	"40-44 years"	"40-44"	184	Not Applicable	Not Applicable
+	"Texas"	"48"	"45-49 years"	"45-49"	210	Not Applicable	Not Applicable
+	"Texas"	"48"	"50-54 years"	"50-54"	245	Not Applicable	Not Applicable
+	"Texas"	"48"	"55-59 years"	"55-59"	331	Not Applicable	Not Applicable
+	"Texas"	"48"	"60-64 years "	"60-64"	346	Not Applicable	Not Applicable
+	"Texas"	"48"	"65-69 years"	"65-69"	400	Not Applicable	Not Applicable
+	"Texas"	"48"	"70-74 years"	"70-74"	391	Not Applicable	Not Applicable
+	"Texas"	"48"	"75-79 years"	"75-79"	484	Not Applicable	Not Applicable
+	"Texas"	"48"	"80-84 years"	"80-84"	550	Not Applicable	Not Applicable
+	"Texas"	"48"	"85-89 years"	"85-89"	562	Not Applicable	Not Applicable
+	"Texas"	"48"	"90-94 years"	"90-94"	436	Not Applicable	Not Applicable
+	"Texas"	"48"	"95-99 years"	"95-99"	189	Not Applicable	Not Applicable
+	"Texas"	"48"	"100+ years"	"100+"	29	Not Applicable	Not Applicable
+	"Utah"	"49"	"25-29 years"	"25-29"	10	Not Applicable	Not Applicable
+	"Utah"	"49"	"30-34 years"	"30-34"	14	Not Applicable	Not Applicable
+	"Utah"	"49"	"35-39 years"	"35-39"	24	Not Applicable	Not Applicable
+	"Utah"	"49"	"40-44 years"	"40-44"	16	Not Applicable	Not Applicable
+	"Utah"	"49"	"45-49 years"	"45-49"	15	Not Applicable	Not Applicable
+	"Utah"	"49"	"50-54 years"	"50-54"	31	Not Applicable	Not Applicable
+	"Utah"	"49"	"55-59 years"	"55-59"	30	Not Applicable	Not Applicable
+	"Utah"	"49"	"60-64 years "	"60-64"	34	Not Applicable	Not Applicable
+	"Utah"	"49"	"65-69 years"	"65-69"	37	Not Applicable	Not Applicable
+	"Utah"	"49"	"70-74 years"	"70-74"	53	Not Applicable	Not Applicable
+	"Utah"	"49"	"75-79 years"	"75-79"	63	Not Applicable	Not Applicable
+	"Utah"	"49"	"80-84 years"	"80-84"	90	Not Applicable	Not Applicable
+	"Utah"	"49"	"85-89 years"	"85-89"	101	Not Applicable	Not Applicable
+	"Utah"	"49"	"90-94 years"	"90-94"	76	Not Applicable	Not Applicable
+	"Utah"	"49"	"95-99 years"	"95-99"	23	Not Applicable	Not Applicable
+	"Vermont"	"50"	"55-59 years"	"55-59"	14	Not Applicable	Not Applicable
+	"Vermont"	"50"	"65-69 years"	"65-69"	10	Not Applicable	Not Applicable
+	"Vermont"	"50"	"70-74 years"	"70-74"	24	Not Applicable	Not Applicable
+	"Vermont"	"50"	"75-79 years"	"75-79"	24	Not Applicable	Not Applicable
+	"Vermont"	"50"	"80-84 years"	"80-84"	28	Not Applicable	Not Applicable
+	"Vermont"	"50"	"85-89 years"	"85-89"	42	Not Applicable	Not Applicable
+	"Vermont"	"50"	"90-94 years"	"90-94"	33	Not Applicable	Not Applicable
+	"Vermont"	"50"	"95-99 years"	"95-99"	22	Not Applicable	Not Applicable
+	"Virginia"	"51"	"25-29 years"	"25-29"	24	Not Applicable	Not Applicable
+	"Virginia"	"51"	"30-34 years"	"30-34"	24	Not Applicable	Not Applicable
+	"Virginia"	"51"	"35-39 years"	"35-39"	39	Not Applicable	Not Applicable
+	"Virginia"	"51"	"40-44 years"	"40-44"	36	Not Applicable	Not Applicable
+	"Virginia"	"51"	"45-49 years"	"45-49"	44	Not Applicable	Not Applicable
+	"Virginia"	"51"	"50-54 years"	"50-54"	59	Not Applicable	Not Applicable
+	"Virginia"	"51"	"55-59 years"	"55-59"	86	Not Applicable	Not Applicable
+	"Virginia"	"51"	"60-64 years "	"60-64"	116	Not Applicable	Not Applicable
+	"Virginia"	"51"	"65-69 years"	"65-69"	138	Not Applicable	Not Applicable
+	"Virginia"	"51"	"70-74 years"	"70-74"	155	Not Applicable	Not Applicable
+	"Virginia"	"51"	"75-79 years"	"75-79"	194	Not Applicable	Not Applicable
+	"Virginia"	"51"	"80-84 years"	"80-84"	223	Not Applicable	Not Applicable
+	"Virginia"	"51"	"85-89 years"	"85-89"	275	Not Applicable	Not Applicable
+	"Virginia"	"51"	"90-94 years"	"90-94"	212	Not Applicable	Not Applicable
+	"Virginia"	"51"	"95-99 years"	"95-99"	83	Not Applicable	Not Applicable
+	"Virginia"	"51"	"100+ years"	"100+"	13	Not Applicable	Not Applicable
+	"Washington"	"53"	"25-29 years"	"25-29"	41	Not Applicable	Not Applicable
+	"Washington"	"53"	"30-34 years"	"30-34"	44	Not Applicable	Not Applicable
+	"Washington"	"53"	"35-39 years"	"35-39"	46	Not Applicable	Not Applicable
+	"Washington"	"53"	"40-44 years"	"40-44"	44	Not Applicable	Not Applicable
+	"Washington"	"53"	"45-49 years"	"45-49"	50	Not Applicable	Not Applicable
+	"Washington"	"53"	"50-54 years"	"50-54"	59	Not Applicable	Not Applicable
+	"Washington"	"53"	"55-59 years"	"55-59"	97	Not Applicable	Not Applicable
+	"Washington"	"53"	"60-64 years "	"60-64"	86	Not Applicable	Not Applicable
+	"Washington"	"53"	"65-69 years"	"65-69"	135	Not Applicable	Not Applicable
+	"Washington"	"53"	"70-74 years"	"70-74"	140	Not Applicable	Not Applicable
+	"Washington"	"53"	"75-79 years"	"75-79"	189	Not Applicable	Not Applicable
+	"Washington"	"53"	"80-84 years"	"80-84"	221	Not Applicable	Not Applicable
+	"Washington"	"53"	"85-89 years"	"85-89"	279	Not Applicable	Not Applicable
+	"Washington"	"53"	"90-94 years"	"90-94"	258	Not Applicable	Not Applicable
+	"Washington"	"53"	"95-99 years"	"95-99"	138	Not Applicable	Not Applicable
+	"Washington"	"53"	"100+ years"	"100+"	20	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"25-29 years"	"25-29"	13	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"30-34 years"	"30-34"	14	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"35-39 years"	"35-39"	11	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"40-44 years"	"40-44"	12	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"45-49 years"	"45-49"	17	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"50-54 years"	"50-54"	22	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"55-59 years"	"55-59"	37	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"60-64 years "	"60-64"	48	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"65-69 years"	"65-69"	55	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"70-74 years"	"70-74"	69	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"75-79 years"	"75-79"	74	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"80-84 years"	"80-84"	99	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"85-89 years"	"85-89"	101	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"90-94 years"	"90-94"	103	Not Applicable	Not Applicable
+	"West Virginia"	"54"	"95-99 years"	"95-99"	28	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"25-29 years"	"25-29"	20	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"30-34 years"	"30-34"	21	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"35-39 years"	"35-39"	39	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"40-44 years"	"40-44"	25	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"45-49 years"	"45-49"	33	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"50-54 years"	"50-54"	58	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"55-59 years"	"55-59"	86	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"60-64 years "	"60-64"	128	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"65-69 years"	"65-69"	136	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"70-74 years"	"70-74"	203	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"75-79 years"	"75-79"	250	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"80-84 years"	"80-84"	310	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"85-89 years"	"85-89"	454	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"90-94 years"	"90-94"	416	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"95-99 years"	"95-99"	210	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"100+ years"	"100+"	48	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"55-59 years"	"55-59"	11	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"60-64 years "	"60-64"	17	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"65-69 years"	"65-69"	13	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"70-74 years"	"70-74"	13	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"75-79 years"	"75-79"	18	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"80-84 years"	"80-84"	18	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"85-89 years"	"85-89"	31	Not Applicable	Not Applicable
+	"Wyoming"	"56"	"90-94 years"	"90-94"	30	Not Applicable	Not Applicable
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Month"
+"Query Parameters:"
+"Five-Year Age Groups: 25-29 years; 30-34 years; 35-39 years; 40-44 years; 45-49 years; 50-54 years; 55-59 years; 60-64 years ;"
+"65-69 years; 70-74 years; 75-79 years; 80-84 years; 85-89 years; 90-94 years; 95-99 years; 100+ years"
+"UCD - ICD-10 Codes: W00 (Fall on same level involving ice and snow); W01 (Fall on same level from slipping, tripping and"
+"stumbling); W02 (Fall involving ice-skates, skis, roller-skates or skateboards); W03 (Other fall on same level due to collision"
+"with, or pushing by, another person); W04 (Fall while being carried or supported by other persons); W05 (Fall involving"
+"wheelchair); W06 (Fall involving bed); W07 (Fall involving chair); W08 (Fall involving other furniture); W09 (Fall involving"
+"playground equipment); W10 (Fall on and from stairs and steps); W11 (Fall on and from ladder); W12 (Fall on and from"
+"scaffolding); W13 (Fall from, out of or through building or structure); W14 (Fall from tree); W15 (Fall from cliff); W16 (Diving"
+"or jumping into water causing injury other than drowning or submersion); W17 (Other fall from one level to another); W18 (Other"
+"fall on same level); W19 (Unspecified fall); W20 (Struck by thrown, projected or falling object); W21 (Striking against or"
+"struck by sports equipment); W22 (Striking against or struck by other objects); W23 (Caught, crushed, jammed or pinched in or"
+"between objects); W24 (Contact with lifting and transmission devices, not elsewhere classified); W25 (Contact with sharp glass);"
+"W26 (Contact with knife, sword or dagger); W27 (Contact with nonpowered hand tool); W28 (Contact with powered lawnmower); W29"
+"(Contact with other powered hand tools and household machinery); W30 (Contact with agricultural machinery); W31 (Contact with"
+"other and unspecified machinery); W32 (Handgun discharge); W33 (Rifle, shotgun and larger firearm discharge); W34 (Discharge"
+"from other and unspecified firearms); W35 (Explosion and rupture of boiler); W36 (Explosion and rupture of gas cylinder); W37"
+"(Explosion and rupture of pressurized tyre, pipe or hose); W38 (Explosion and rupture of other specified pressurized devices);"
+"W39 (Discharge of firework); W40 (Explosion of other materials); W41 (Exposure to high-pressure jet); W42 (Exposure to noise);"
+"W43 (Exposure to vibration); W44 (Foreign body entering into or through eye or natural orifice); W45 (Foreign body or object"
+"entering through skin); W46 (Contact with hypodermic needle); W49 (Exposure to other and unspecified inanimate mechanical"
+"forces); W50 (Hit, struck, kicked, twisted, bitten or scratched by another person); W51 (Striking against or bumped into by"
+"another person); W52 (Crushed, pushed or stepped on by crowd or human stampede); W53 (Bitten by rat); W54 (Bitten or struck by"
+"dog); W55 (Bitten or struck by other mammals); W56 (Contact with marine animal); W57 (Bitten or stung by nonvenomous insect and"
+"other nonvenomous arthropods); W58 (Bitten or struck by crocodile or alligator); W59 (Bitten or crushed by other reptiles); W60"
+"(Contact with plant thorns and spines and sharp leaves); W64 (Exposure to other and unspecified animate mechanical forces); W65"
+"(Drowning and submersion while in bath-tub); W66 (Drowning and submersion following fall into bath-tub); W67 (Drowning and"
+"submersion while in swimming-pool); W68 (Drowning and submersion following fall into swimming-pool); W69 (Drowning and"
+"submersion while in natural water); W70 (Drowning and submersion following fall into natural water); W73 (Other specified"
+"drowning and submersion); W74 (Unspecified drowning and submersion); W75 (Accidental suffocation and strangulation in bed); W76"
+"(Other accidental hanging and strangulation); W77 (Threat to breathing due to cave-in, falling earth and other substances); W78"
+"(Inhalation of gastric contents); W79 (Inhalation and ingestion of food causing obstruction of respiratory tract); W80"
+"(Inhalation and ingestion of other objects causing obstruction of respiratory tract); W81 (Confined to or trapped in a"
+"low-oxygen environment); W83 (Other specified threats to breathing); W84 (Unspecified threat to breathing); W85 (Exposure to"
+"electric transmission lines); W86 (Exposure to other specified electric current); W87 (Exposure to unspecified electric"
+"current); W88 (Exposure to ionizing radiation); W89 (Exposure to man-made visible and ultraviolet light); W90 (Exposure to other"
+"nonionizing radiation); W91 (Exposure to unspecified type of radiation); W92 (Exposure to excessive heat of man-made origin);"
+"W93 (Exposure to excessive cold of man-made origin); W94 (Exposure to high and low air pressure and changes in air pressure);"
+"W99 (Exposure to other and unspecified man-made environmental factors); X00 (Exposure to uncontrolled fire in building or"
+"structure); X01 (Exposure to uncontrolled fire, not in building or structure); X02 (Exposure to controlled fire in building or"
+"structure); X03 (Exposure to controlled fire, not in building or structure); X04 (Exposure to ignition of highly flammable"
+"material); X05 (Exposure to ignition or melting of nightwear); X06 (Exposure to ignition or melting of other clothing and"
+"apparel); X08 (Exposure to other specified smoke, fire and flames); X09 (Exposure to unspecified smoke, fire and flames); X10"
+"(Contact with hot drinks, food, fats and cooking oils); X11 (Contact with hot tap-water); X12 (Contact with other hot fluids);"
+"X13 (Contact with steam and hot vapours); X14 (Contact with hot air and gases); X15 (Contact with hot household appliances); X16"
+"(Contact with hot heating appliances, radiators and pipes); X17 (Contact with hot engines, machinery and tools); X18 (Contact"
+"with other hot metals); X19 (Contact with other and unspecified heat and hot substances); X20 (Contact with venomous snakes and"
+"lizards); X21 (Contact with venomous spiders); X22 (Contact with scorpions); X23 (Contact with hornets, wasps and bees); X24"
+"(Contact with centipedes and venomous millipedes (tropical)); X25 (Contact with other specified venomous arthropods); X26"
+"(Contact with venomous marine animals and plants); X27 (Contact with other specified venomous animals); X28 (Contact with other"
+"specified venomous plants); X29 (Contact with unspecified venomous animal or plant); X30 (Exposure to excessive natural heat);"
+"X31 (Exposure to excessive natural cold); X32 (Exposure to sunlight); X33 (Victim of lightning); X34 (Victim of earthquake);"
+"X34.0 (Victim of cataclysmic earth movements caused by earthquake); X34.1 (Victim of tsunami); X34.8 (Victim of other specified"
+"effects of earthquake); X34.9 (Victim of unspecified effect of earthquake); X35 (Victim of volcanic eruption); X36 (Victim of"
+"avalanche, landslide and other earth movements); X37 (Victim of cataclysmic storm); X38 (Victim of flood); X39 (Exposure to"
+"other and unspecified forces of nature); X45 (Accidental poisoning by and exposure to alcohol); X46 (Accidental poisoning by and"
+"exposure to organic solvents and halogenated hydrocarbons and their vapours); X47 (Accidental poisoning by and exposure to other"
+"gases and vapours); X48 (Accidental poisoning by and exposure to pesticides); X49 (Accidental poisoning by and exposure to other"
+"and unspecified chemicals and noxious substances); X50 (Overexertion and strenuous or repetitive movements); X51 (Travel and"
+"motion); X52 (Prolonged stay in weightless environment); X53 (Lack of food); X54 (Lack of water); X57 (Unspecified privation);"
+"X58 (Exposure to other specified factors); X59 (Exposure to unspecified factor); X59.0 (Exposure to unspecified factor causing"
+"fracture); X59.9 (Exposure to unspecified factor causing other and unspecified injury); Y15 (Poisoning by and exposure to"
+"alcohol, undetermined intent); Y16 (Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their"
+"vapours, undetermined intent); Y17 (Poisoning by and exposure to other gases and vapours, undetermined intent); Y18 (Poisoning"
+"by and exposure to pesticides, undetermined intent); Y19 (Poisoning by and exposure to other and unspecified chemicals and"
+"noxious substances, undetermined intent); Y20 (Hanging, strangulation and suffocation, undetermined intent); Y21 (Drowning and"
+"submersion, undetermined intent); Y22 (Handgun discharge, undetermined intent); Y23 (Rifle, shotgun and larger firearm"
+"discharge, undetermined intent); Y24 (Other and unspecified firearm discharge, undetermined intent); Y25 (Contact with explosive"
+"material, undetermined intent); Y26 (Exposure to smoke, fire and flames, undetermined intent); Y27 (Contact with steam, hot"
+"vapours and hot objects, undetermined intent); Y28 (Contact with sharp object, undetermined intent); Y29 (Contact with blunt"
+"object, undetermined intent); Y30 (Falling, jumping or pushed from a high place, undetermined intent); Y31 (Falling, lying or"
+"running before or into moving object, undetermined intent); Y32 (Crashing of motor vehicle, undetermined intent); Y33 (Other"
+"specified events, undetermined intent); Y34 (Unspecified event, undetermined intent); Y35-Y36 (Legal intervention and operations"
+"of war); Y40-Y84 (Complications of medical and surgical care); Y86 (Sequelae of other accidents); Y87.2 (Sequelae of events of"
+"undetermined intent); Y88.0 (Sequelae of adverse effects caused by drugs, medicaments and biological substances in therapeutic"
+"use); Y88.1 (Sequelae of misadventures to patients during surgical and medical procedures); Y88.2 (Sequelae of adverse incidents"
+"associated with medical devices in diagnostic and therapeutic use); Y88.3 (Sequelae of surgical and medical procedures as the"
+"cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the"
+"procedure); Y89.0 (Sequelae of legal intervention); Y89.1 (Sequelae of war operations); Y89.9 (Sequelae of unspecified external"
+"cause)"
+"Year/Month: Mar., 2019; Apr., 2019; May, 2019; Jun., 2019; Jul., 2019; Aug., 2019; Sep., 2019; Oct., 2019; Nov., 2019; Dec.,"
+"2019; Jan., 2020; Feb., 2020"
+"Group By: Residence State; Five-Year Age Groups"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Mar 4, 2022 12:28:35 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Provisional Multiple"
+"Cause of Death on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2020, and from"
+"provisional data for years 2021-2022, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital"
+"Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Mar 4, 2022 12:28:35 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when location of Death's Occurrence, Autopsy, Place of Death, Weekday or"
+"Month are grouped by or limited, due to lack of a valid population. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#NotApplicableRates."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"4. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Not Stated."
+"5. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"6. Deaths occurring through January 22,2022 as of February 06,2022."

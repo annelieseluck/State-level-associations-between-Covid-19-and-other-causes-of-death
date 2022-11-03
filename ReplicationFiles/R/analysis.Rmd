@@ -1,0 +1,390 @@
+---
+title: "Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = TRUE,
+                      warning = TRUE)
+```
+
+```{r}
+# loading packages
+library(USAboundaries)
+library(tigris)
+library(ggthemes)
+library(scico)
+library(ggrepel)
+library(gridExtra)
+library(patchwork)
+library(broom)
+library(here)
+library(gt)
+library(tidyverse)
+```
+
+```{r}
+# Do not rely on this to completely clean your environment
+# Better to do a full restart of R before running
+rm(list=ls())
+
+i_am('R/cleanData.Rmd')
+
+inDir <- here('data','input')
+outDir <- here('data','output')
+tablesDir <- here('tables')
+figuresDir <- here('figures')
+```
+
+## Prepare data for models and fit them
+```{r}
+# Import clean data
+ASCDRData <- read_csv(here(outDir,'ASCDRData.csv'))
+```
+```{r}
+# Select causes used in the main analysis
+mainCauses <- c('All Causes','COVID-19','Non COVID-19','Dementia',
+                'Diabetes','Circulatory','Influenza',
+                'Other Respiratory','Neoplasms','Not Classified',
+                'External Causes','Other Causes')
+
+# Select supplementary causes
+suppCauses <- c('Homicide','Suicide','Transport','Drugs','Other External Causes')
+```
+
+```{r}
+# Sort causes of death
+ASCDRData <- ASCDRData%>%
+  mutate(cause = factor(cause,
+                        levels=c(mainCauses,suppCauses)))
+```
+
+```{r}
+ASCDRDataByGroup <- ASCDRData %>%
+  filter(cause=='COVID-19') %>%
+  select(state,ageGroup,COVIDASCDR2020=ASCDR2020) %>%
+  left_join(ASCDRData,by=c('state','ageGroup')) %>%
+  mutate(ASCDRChange = ASCDR2020-ASCDR2019,
+         group = paste(ageGroup,cause,sep=',')) %>%
+  group_by(group) %>%
+  nest()
+```
+
+```{r}
+# Fit model
+modelResults <- map2_dfr(ASCDRDataByGroup$data,ASCDRDataByGroup$group,
+                         ~ lm(ASCDRChange ~ COVIDASCDR2020, 
+                              weights=pop, data=.x) %>% 
+                           tidy() %>%
+                           select(-statistic) %>%
+                           mutate(term = if_else(term=='(Intercept)','intercept','beta'),
+                                  group = .y))
+```
+
+```{r}
+modelResults <- modelResults %>%
+  pivot_wider(names_from = term, values_from = estimate:p.value) %>%
+  separate(group,into=c('ageGroup','cause'),sep=',') %>%
+  group_by(ageGroup) %>%
+  mutate(total = sum((cause=='All Causes')*estimate_beta),
+         totalNonCovid = sum((cause=='Non COVID-19')*estimate_beta)) %>%
+  ungroup() %>%
+  mutate(ACDecomp = estimate_beta/total,
+         NonCovidDecomp = estimate_beta/totalNonCovid) %>%
+  select(-c(total,totalNonCovid)) %>%
+  mutate(cause = factor(cause,
+                        levels=c(mainCauses,suppCauses)))
+
+modelResults %>% write_csv(here(tablesDir,'modelResults.csv'))
+```
+
+## Create Results Table
+```{r}
+create_table <- function(coefData,causes,file) {
+  
+  coefData %>%
+    filter(cause %in% causes) %>%
+    mutate(ageGroup = factor(case_when(ageGroup == '25Plus' ~ '25+',
+                                       ageGroup == '2564' ~ '25-64',
+                                       ageGroup == '65Plus' ~ '65+'),
+                             levels = c('25+','25-64','65+')),
+           NonCovidDecomp = if_else(cause %in% c('All Causes','COVID-19'),NA_real_,NonCovidDecomp)) %>%
+    select(ageGroup,cause,
+           estimate_intercept,
+           estimate_beta,
+           p.value_beta,
+           ACDecomp,
+           NonCovidDecomp) %>%
+    arrange(ageGroup,cause) %>%
+    group_by(ageGroup) %>%
+    gt() %>%
+    cols_label(
+      ageGroup = 'Age Group',
+      cause = 'Cause of Death',
+      estimate_intercept = 'Intercept',
+      estimate_beta = 'Slope',
+      p.value_beta = ' Slope p Value',
+      ACDecomp = 'All Causes',
+      NonCovidDecomp = 'Non COVID-19') %>%
+    fmt_number(
+      columns = estimate_intercept:NonCovidDecomp,
+      decimals = 3
+    ) %>%
+    tab_spanner(
+      label = 'Slope Decomposition',
+      columns = ACDecomp:NonCovidDecomp
+    ) %>%
+    gt::gtsave(filename = file,zoom=4)
+  
+}
+```
+
+```{r}
+create_table(modelResults,mainCauses,here(tablesDir,"resultsTableMain.png"))
+```
+
+## Repeat modeling for standardized variables
+
+```{r}
+ASCDRDataByGroupStd <- ASCDRData %>%
+  filter(cause=='COVID-19') %>%
+  select(state,ageGroup,COVIDASCDR2020=ASCDR2020) %>%
+  left_join(ASCDRData,by=c('state','ageGroup')) %>%
+  group_by(cause,ageGroup) %>%
+  mutate(COVIDASCDR2020 = (COVIDASCDR2020 - mean(COVIDASCDR2020))/sd(COVIDASCDR2020),
+         ASCDRChange = (ASCDR2020-ASCDR2019 - mean(ASCDR2020-ASCDR2019))/sd(ASCDR2020-ASCDR2019),
+         group = paste(ageGroup,cause,sep=',')) %>%
+  ungroup() %>%
+  group_by(group) %>%
+  nest()
+```
+
+```{r}
+# Fit model
+modelStdResults <- map2_dfr(ASCDRDataByGroupStd$data,ASCDRDataByGroupStd$group,
+                         ~ lm(ASCDRChange ~ COVIDASCDR2020, 
+                              weights=pop, data=.x) %>% 
+                           tidy() %>%
+                           select(-statistic) %>%
+                           mutate(term = if_else(term=='(Intercept)','intercept','beta'),
+                                  group = .y))
+```
+
+```{r}
+modelStdResults <- modelStdResults %>%
+  pivot_wider(names_from = term, values_from = estimate:p.value) %>%
+  separate(group,into=c('ageGroup','cause'),sep=',') %>%
+  group_by(ageGroup) %>%
+  mutate(total = sum((cause=='All Causes')*estimate_beta),
+         totalNonCovid = sum((cause=='Non COVID-19')*estimate_beta)) %>%
+  ungroup() %>%
+  mutate(ACDecomp = estimate_beta/total,
+         NonCovidDecomp = estimate_beta/totalNonCovid) %>%
+  select(-c(total,totalNonCovid)) %>%
+  mutate(cause = factor(cause,
+                        levels=c(mainCauses,suppCauses)))
+
+modelStdResults %>% write_csv(here(tablesDir,'modelStdResults.csv'))
+```
+
+```{r}
+create_table_no_decomp <- function(coefData,causes,file) {
+  
+  coefData %>%
+    filter(cause %in% causes) %>%
+    mutate(ageGroup = factor(case_when(ageGroup == '25Plus' ~ '25+',
+                                       ageGroup == '2564' ~ '25-64',
+                                       ageGroup == '65Plus' ~ '65+'),
+                             levels = c('25+','25-64','65+'))) %>%
+    select(ageGroup,cause,
+           estimate_intercept,
+           estimate_beta,
+           p.value_beta) %>%
+    arrange(ageGroup,cause) %>%
+    group_by(ageGroup) %>%
+    gt() %>%
+    cols_label(
+      ageGroup = 'Age Group',
+      cause = 'Cause of Death',
+      estimate_intercept = 'Intercept',
+      estimate_beta = 'Slope',
+      p.value_beta = ' Slope p Value') %>%
+    fmt_number(
+      columns = estimate_intercept:p.value_beta,
+      decimals = 3
+    ) %>%
+    gt::gtsave(filename = file,zoom=4)
+  
+}
+```
+
+```{r}
+create_table_no_decomp(modelStdResults,mainCauses,here(tablesDir,"resultsTableMainStd.png"))
+```
+
+```{r}
+create_table_no_decomp(modelResults,suppCauses,here(tablesDir,"resultsTableSupp.png"))
+create_table_no_decomp(modelStdResults,suppCauses,here(tablesDir,"resultsTableSuppStd.png"))
+```
+
+# VISUALS
+
+## FIGURE 1: State Distribution of Cause-Specific ASDR for ages 25+ from 3/2020-2/2021 
+```{r}
+# Create data for mapz
+mapData <- us_states() %>%
+  shift_geometry() %>%
+  select(geoid,state=name,geometry) %>%
+  right_join(ASCDRData,by='state') %>%
+  filter(cause %in% mainCauses,
+         ageGroup=='25Plus') %>%
+  group_by(cause) %>%
+  nest()
+```
+
+```{r}
+# Define function to create maps
+create_map <- function(data,group) {
+  
+  groupMap <- data %>%
+    ggplot() +
+    geom_sf(mapping=aes(fill = ASCDR2020),
+              color = "gray30", size = 0.05) +
+    scale_fill_scico(palette = 'lajolla') + 
+    labs(title=group,
+         fill='ASCDR') +
+    coord_sf() +
+    theme_map() +
+    theme(legend.position = 'bottom',
+          legend.key.height = unit(0.2,'cm'))
+  
+  return(groupMap)
+}
+```
+
+```{r}
+# Create maps
+mortMaps <- map2(mapData$data,mapData$cause,create_map)
+names(mortMaps) <- mapData$cause
+```
+
+```{r}
+# Combine maps for minor causes
+minorCauses <- setdiff(mapData$cause,c('All Causes','COVID-19','Non COVID-19'))
+minorCausesMaps <- do.call(grid.arrange, list(grobs=mortMaps[minorCauses],nrow=3))
+```
+
+```{r}
+pdf(here(figuresDir ,'mortalityMaps.pdf'), width=10, height = 12)
+(mortMaps[['Non COVID-19']] + mortMaps[['COVID-19']]) / minorCausesMaps + 
+  plot_layout(heights = c(1, 2))
+dev.off()
+```
+
+## FIGURE 2: Association between state-level COVID-19 mortality and change in cause-specific mortality, ages 25+
+```{r}
+# Read state Data (names abbreviations, etc.)
+statesData <- read_csv(here(inDir,'states.csv'))
+statesData <- statesData %>%
+  mutate(state = str_to_title(state_name),
+         state = if_else(st_abbrv=='DC','District of Columbia',state))
+```
+
+```{r}
+# Define function to build scatter plots
+create_scatter_plot <- function(data,coefData,causes,group) {
+  
+  plotData <- data %>%
+    filter(cause=='COVID-19') %>%
+    select(state,ageGroup,COVIDASCDR2020=ASCDR2020) %>%
+    left_join(data,by=c('state','ageGroup')) %>%
+    left_join(statesData,by='state') %>%
+    filter(cause %in% causes,
+           ageGroup == group)
+  
+  annotateData <- coefData %>%
+    filter(cause %in% causes,
+           ageGroup == group) %>%
+    mutate(label = paste0('Slope: ',round(estimate_beta,3))) %>%
+    select(cause,ageGroup,label) %>%
+    left_join(plotData,by=c('cause','ageGroup')) %>%
+    mutate(x = min(COVIDASCDR2020) + sd(COVIDASCDR2020),
+           y = max(ASCDRChange)*0.95) %>%
+    distinct(cause,label,x,y)
+  
+  scatterPlot <- plotData %>%
+    ggplot() +
+    geom_smooth(mapping=aes(x=COVIDASCDR2020,y=ASCDRChange,weight=pop),
+                method='lm',fill='gray60',color='black') +
+    geom_point(mapping=aes(x=COVIDASCDR2020,y=ASCDRChange,fill=region),
+               shape=21,color='black',stroke=0.2,size=2.5) +
+    geom_text(annotateData,mapping = aes(x=x,y=y,label=label)) +
+    ggsci::scale_color_tron() +
+    labs(x='COVID-19 ASCDR',
+         y='Absolute ASCDR Change',
+         fill='Census Region') +
+    facet_wrap(~cause,nrow = 3) +
+    theme_bw()
+  
+  return(scatterPlot)
+  
+}
+```
+
+```{r}
+# Define variable for ASCDR change
+ASCDRData <- ASCDRData %>%
+  mutate(ASCDRChange = ASCDR2020 - ASCDR2019)
+
+# Create plots
+NonCovidScatter <- create_scatter_plot(ASCDRData,modelResults,c('Non COVID-19'),'25Plus')
+otherCausesScatter <- create_scatter_plot(ASCDRData,
+                                          modelResults,
+                                          setdiff(mainCauses,c('All Causes','COVID-19','Non COVID-19')),
+                                          '25Plus')
+```
+
+```{r}
+pdf(here(figuresDir ,'scatterPlots.pdf'), width=14, height = 8)
+(NonCovidScatter + 
+    geom_text_repel(mapping=aes(x=COVIDASCDR2020,
+                                y=ASCDRChange,
+                                label=st_abbrv))) +
+  otherCausesScatter + 
+  plot_layout(guides='collect',widths = c(1, 2)) &
+  theme(legend.position = 'bottom')
+dev.off()
+```
+
+## FIGURE 3
+
+```{r}
+ASCDRDataStd <- ASCDRData %>%
+  group_by(cause,ageGroup) %>%
+  mutate(ASCDRChange = (ASCDRChange-mean(ASCDRChange))/sd(ASCDRChange),
+         ASCDR2020 = (ASCDR2020-mean(ASCDR2020))/sd(ASCDR2020)) %>%
+  ungroup()
+```
+
+```{r}
+# Create plots
+NonCovidScatterStd <- create_scatter_plot(ASCDRDataStd,modelStdResults,c('Non COVID-19'),'25Plus')
+otherCausesScatterStd <- create_scatter_plot(ASCDRDataStd,
+                                             modelStdResults,
+                                             setdiff(mainCauses,c('All Causes','COVID-19','Non COVID-19')),
+                                             '25Plus')
+```
+
+```{r}
+pdf(here(figuresDir ,'scatterPlotsStd.pdf'), width=14, height = 8)
+(NonCovidScatterStd + 
+    geom_text_repel(mapping=aes(x=COVIDASCDR2020,
+                                y=ASCDRChange,
+                                label=st_abbrv))) +
+  otherCausesScatterStd + 
+  plot_layout(guides='collect',widths = c(1, 2)) &
+  theme(legend.position = 'bottom')
+dev.off()
+```
+

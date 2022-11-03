@@ -1,0 +1,276 @@
+---
+title: "Preparing Data for Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = TRUE,
+                      warning = TRUE)
+```
+
+```{r}
+# loading packages
+library(here)
+library(tidyverse)
+```
+
+```{r}
+# Do not rely on this to completely clean your environment
+# Better to do a full restart of R before running
+rm(list=ls())
+
+i_am('R/cleanData.Rmd')
+
+inDir <- here('data','input')
+outDir <- here('data','output')
+tablesDir <- here('tables')
+```
+
+# RAW DATA CLEANING
+
+```{r}
+extract_cause_name <- function(fileName) {
+  
+  capitalize_first_letter <- function(s) {
+    capitalizedString <- str_c(
+      c(str_to_upper(str_sub(s,1,1)),
+        str_sub(s,2,nchar(s))),
+      collapse = '') 
+    
+    return(capitalizedString)
+  }
+  
+  cleanName <- str_match(fileName,'[^\\d-]+')
+  cleanName <- str_c(map(str_split(cleanName,'_')[[1]],capitalize_first_letter),collapse = '')
+  
+  return(cleanName)
+    
+}
+
+extract_cause_names <- function(fileNames) {
+  
+  cleanNames <- unlist(map(fileNames,extract_cause_name))
+  
+  return(cleanNames)
+    
+}
+
+read_CDC_data <- function(file) {
+  
+  suppressWarnings(
+    data <- list.files(
+        file,
+        pattern = "*.txt",
+        full.names = F
+      ) %>%
+      map_dfr(
+        ~ data.table::fread(
+          here(file,.x),
+          na.strings = c("Missing", "Suppressed", "Not Applicable"),
+          keepLeadingZeros = TRUE,
+          colClasses = c("character")
+        ) %>% mutate(cause =  extract_cause_names(.x),
+                     year = as.integer(str_extract(.x,'\\d+')))
+      )
+  )
+
+  data <- as_tibble(data)
+  return(data)
+  
+}
+
+clean_CDC_data <- function(data) {
+    
+  # Setting intuitive names
+  data <- data %>%
+    select('year',
+           'total' = 'Notes',
+           'state'='Residence State',
+           'ageGroup' = 'Five-Year Age Groups Code',
+           'deaths'='Deaths',
+           'cause')
+  
+  # Drop totals
+  data <- data %>% 
+    filter(total != 'Total')
+  
+  # Create open-ended interval 85+
+  data <- data %>%
+    mutate(ageGroup = if_else(ageGroup %in% c('85-89','90-94','95-99','100+'),
+                              '85+',ageGroup))
+  
+  # Set deaths as numeric
+  data <- data %>%
+    mutate(deaths = as.integer(deaths))
+  
+  # Drop National Totals
+  data <- data %>%
+    filter(state!='')
+  
+  # Make sure that data is complete
+  data <- crossing(state=unique(pull(data,state)),
+                   year=unique(pull(data,year)),
+                   cause=unique(pull(data,cause)),
+                   ageGroup=unique(pull(data,ageGroup))) %>%
+    left_join(data,by=c('state','year','cause','ageGroup')) %>%
+    mutate(deaths = if_else(is.na(deaths),0L,deaths))
+         
+  # Sum open-ended interval 85+
+  data <- data %>%
+    group_by(year,state,cause,ageGroup) %>%
+    summarise(deaths = sum(deaths)) %>%
+    ungroup()
+  
+  return(data)
+}
+```
+
+```{r}
+# Reading and cleaning mortality data
+mortData <- read_CDC_data(here(inDir,'mortality')) %>%
+  clean_CDC_data()
+```
+
+```{r}
+# Clean Cause Names
+mortData <- mortData %>%
+  mutate(cause = case_when(cause == 'AllCause' ~ 'All Causes',
+                           cause == 'Covid' ~ 'COVID-19',
+                           cause == 'NonCovid' ~ 'Non COVID-19',
+                           cause == 'OtherResp' ~ 'Other Respiratory',
+                           cause == 'NotClassified' ~ 'Not Classified',
+                           cause == 'External' ~ 'External Causes',
+                           cause == 'Other' ~ 'Other Causes',
+                           cause == 'OtherExternal' ~ 'Other External Causes',
+                           TRUE ~ cause))
+```
+
+```{r}
+# Reading and cleaning population data
+## for rate denominator, use mid period March-Feb population (September)
+popData <- read_csv(here(inDir,'population','Census_July_Yearly_Pop_ByState.csv'))
+```
+
+```{r}
+# Read and clean population data
+popData <- popData %>%
+  select('age'='AGE','state'='NAME','sex'='SEX',
+         'pop2019'='POPESTIMATE2019','pop2020'='POPESTIMATE2020') %>%
+  filter(age >= 25,sex==0) %>%
+  mutate(ageGroupPop = cut(age,c(seq(25,85,5),Inf),right=F)) %>%
+  group_by(state,ageGroupPop) %>%
+  summarise(across(pop2019:pop2020, ~ sum(.x))) %>%
+  ungroup() %>%
+  pivot_longer(pop2019:pop2020,names_to = 'year',names_prefix = 'pop',values_to = 'pop') %>%
+  mutate(year = as.integer(year),
+         startAge = as.integer(str_sub(ageGroupPop,2,3)),
+         endAge = if_else(ageGroupPop != '[85,Inf)',
+                          as.double(str_sub(ageGroupPop,5,6)),
+                          Inf),
+         ageGroup = if_else(startAge == 85,'85+',str_c(startAge,endAge-1,sep='-')))
+```
+
+```{r}
+# Compute age distribution for 2020
+popDistribution <- popData %>%
+  filter(year == 2020) %>%
+  group_by(ageGroup) %>%
+  summarise(pop = sum(pop)) %>%
+  ungroup() %>%
+  mutate(prop = pop/sum(pop))
+```
+
+```{r}
+# calculate age-specific death rates
+mortData <- popData %>% 
+  select(-ageGroupPop) %>%
+  full_join(mortData,by=c('year','state','ageGroup')) %>%
+  mutate(CDR = deaths/pop)
+```
+
+```{r}
+# Save cleaned mortality and population files
+mortData %>% write_csv(here(outDir,'mortalityData.csv'))
+popData %>% write_csv(here(outDir,'popData.csv'))
+popDistribution %>% write_csv(here(outDir,'popDistribution.csv'))
+```
+
+```{r}
+# suppression on average across the year (adding up our causes of death)
+mortData %>%
+  mutate(causeType = case_when(
+    cause == 'All Causes' ~ 'AllCauses',
+    cause %in% c('COVID-19','Dementia','Diabetes',
+                 'Circulatory','Influenza',
+                 'Other Respiratory','Neoplasms','Not Classified',
+                 'External Causes','Other Causes') ~ 'singleCauses')) %>% 
+  drop_na(causeType) %>%
+  group_by(causeType,year) %>%
+  summarise(deaths = sum(deaths,na.rm=T)) %>%
+  ungroup() %>%
+  pivot_wider(names_from = causeType,values_from = deaths) %>%
+  mutate(suppression = (AllCauses-singleCauses)/AllCauses)
+```
+
+```{r}
+# calculate age-standardized death rates
+ASCDRData <- mortData %>%
+  left_join(popDistribution %>% select(-pop), by=c('ageGroup')) %>%
+  group_by(year,state,cause) %>%
+  summarise(ASCDR25Plus = sum(CDR*prop,na.rm=T)/sum(prop),
+            ASCDR2564 = sum((startAge<65)*CDR*prop,na.rm=T)/sum((startAge<65)*prop),
+            ASCDR65Plus = sum((startAge>=65)*CDR*prop,na.rm=T)/sum((startAge>=65)*prop)) %>%
+  ungroup() %>%
+  mutate(across(ASCDR25Plus:ASCDR65Plus, ~ .x*100000))
+
+# We save these rates
+ASCDRData %>% write_csv(here(outDir,'ASCDRData.csv'))
+```
+
+```{r}
+ASCDRDataLong <- ASCDRData %>%
+  left_join(popData %>% 
+              filter(year==2020) %>%
+              group_by(state) %>%
+              summarise(pop = sum(pop)) %>%
+              ungroup(),
+            by='state') %>%
+  pivot_longer(ASCDR25Plus:ASCDR65Plus, 
+               values_to='ASCDR', names_to='ageGroup', names_prefix='ASCDR') %>%
+  pivot_wider(names_from=year,values_from=ASCDR,names_prefix='ASCDR')
+```
+
+```{r}
+# Save Age-Standardized Crude Death Rates
+ASCDRDataLong %>% write_csv(here(outDir,'ASCDRData.csv'))
+```
+
+```{r}
+#-------------------------------------------------
+# TABLE 1: National Cause Contributions by Year
+#-------------------------------------------------
+ASCDRNational <- mortData %>%
+  group_by(year,cause,ageGroup,startAge) %>%
+  summarise(across(c(deaths,pop), ~ sum(.x,na.rm=T))) %>%
+  ungroup() %>%
+  mutate(CDR = deaths/pop) %>%
+  left_join(popDistribution %>% select(-pop), by=c('ageGroup')) %>%
+  group_by(year,cause) %>%
+  summarise(ASCDR25Plus = sum(CDR*prop,na.rm=T)/sum(prop),
+            ASCDR2564 = sum((startAge<65)*CDR*prop,na.rm=T)/sum((startAge<65)*prop),
+            ASCDR65Plus = sum((startAge>=65)*CDR*prop,na.rm=T)/sum((startAge>=65)*prop)) %>%
+  ungroup() %>%
+  mutate(across(ASCDR25Plus:ASCDR65Plus, ~ .x*100000))
+
+ASCDRNational %>% write_csv(here(tablesDir,'ASCDRNational.csv'))
+```
+
+```{r}
+#-------------------------------------------------
+# TABLE 2: AllCause, Covid, and NonCovid, ASDR by State and Year
+#-------------------------------------------------
+ASCDRData %>%
+  filter(cause %in% c('All Causes','COVID-19','Non COVID-19')) %>%
+  write_csv(here(tablesDir,'ASCDRStates.csv'))
+```
